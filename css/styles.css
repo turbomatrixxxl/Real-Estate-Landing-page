@@ -453,10 +453,12 @@ h4 {
 }
 
 .about-content-container {
+  border-radius: 14px;
   width: 1245px;
   height: 577px;
   display: flex;
-  background: linear-gradient(
+
+  background-image: linear-gradient(
     133deg,
     #c1dee8 9.15%,
     rgba(255, 255, 255, 0) 52.17%,
@@ -517,11 +519,12 @@ h4 {
   width: 550px;
   height: 576px;
   background: linear-gradient(
-    133deg,
-    #c1dee8 9.15%,
-    rgba(255, 255, 255, 0) 52.17%,
-    #fbd9b9 98.84%
-  );
+      133deg,
+      #c1dee8 9.15%,
+      rgba(255, 255, 255, 0) 52.17%,
+      #fbd9b9 98.84%
+    ),
+    url(../images/people-image.jpg);
 }
 
 /* Footer */
@@ -545,8 +548,8 @@ h4 {
 
   background-image: linear-gradient(
     to right,
-    rgba(0, 153, 255, 0.1),
-    rgba(223, 171, 179, 0.1) 65%
+    rgba(0, 153, 255, 0.3),
+    rgba(223, 171, 179, 0.3) 65%
   );
 }
 
@@ -564,7 +567,7 @@ h4 {
   position: absolute;
   top: -55px;
   right: 0;
-  background-image: url(../images/footer-image.jpg);
+  /* background-image: url(../images/footer-image.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
